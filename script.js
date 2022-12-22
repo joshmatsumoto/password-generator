@@ -21,7 +21,6 @@ function generatePassword(){
 // Write password to the #password input
 function writePassword() {
   passLength=prompt("How many characters will your password be?")
-    parseInt(passLength)
     if (passLength>128){
       alert("Password too long, please input an acceptable value")
       return
