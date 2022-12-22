@@ -27,7 +27,10 @@ Use this website to create your own password that will contain a random string o
 ![password is too short example](assets\images\passtooshort.png)
 ![resulting alert](assets\images\passtooshortalert.png)
 
-![charachter set conditions](assets\images\ucasecond.png)(assets\images\lcasecond.png)(assets\images\numcond.png)(assets\images\speccond.png)
+![charachter set conditions](assets\images\ucasecond.png)
+![charachter set conditions](assets\images\lcasecond.png)
+![charachter set conditions](assets\images\numcond.png)
+![charachter set conditions](assets\images\speccond.png)
 ![password example with all conditions applied](assets\images\allcond.png)
 ![password example with only uppercase condition applied](assets\images\ucaseonly.png)
 ![password example with lowercase and uppercase conditions applied](assets\images\ucaseandlcase.PNG)
