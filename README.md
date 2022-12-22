@@ -23,18 +23,74 @@ In order to make use of the website, press the generate password button and foll
 ## Usage 
 
 Use this website to create your own password that will contain a random string of elements using the prompters to define what type of characters will appear in the password.
+
+Password Length Prompt
 ![password length prompt](https://github.com/joshmatsumoto/password-generator/blob/main/assets/images/passlength.png?raw=true)
+
+Example of Password too short
 ![password is too short example](https://github.com/joshmatsumoto/password-generator/blob/main/assets/images/passtooshort.png?raw=true)
+
+Alert when password is too short
 ![resulting alert](https://github.com/joshmatsumoto/password-generator/blob/main/assets/images/passtooshortalert.png?raw=true)
 
-![charachter set conditions](https://github.com/joshmatsumoto/password-generator/blob/main/assets/images/ucasecond.png?raw=true)
-![charachter set conditions](https://github.com/joshmatsumoto/password-generator/blob/main/assets/images/lcasecond.png?raw=true)
-![charachter set conditions](https://github.com/joshmatsumoto/password-generator/blob/main/assets/images/numcond.png?raw=true)
-![charachter set conditions](https://github.com/joshmatsumoto/password-generator/blob/main/assets/images/speccond.png?raw=true)
+Uppercase Character Condition
+![uppercase charachter set conditions](https://github.com/joshmatsumoto/password-generator/blob/main/assets/images/ucasecond.png?raw=true)
+
+Lowercase Charachter Condition
+![lower case charachter set conditions](https://github.com/joshmatsumoto/password-generator/blob/main/assets/images/lcasecond.png?raw=true)
+
+Number Charachter Condition
+![number charachter set conditions](https://github.com/joshmatsumoto/password-generator/blob/main/assets/images/numcond.png?raw=true)
+
+Special Charachter Condition
+![special charachter set conditions](https://github.com/joshmatsumoto/password-generator/blob/main/assets/images/speccond.png?raw=true)
+
+Example of Password with all conditins applied
 ![password example with all conditions applied](https://github.com/joshmatsumoto/password-generator/blob/main/assets/images/allcond.png?raw=true)
+
+Example of Password with only Uppercase Condition Applied
 ![password example with only uppercase condition applied](https://github.com/joshmatsumoto/password-generator/blob/main/assets/images/ucaseonly.png?raw=true)
+
+Example of Password with lowercase and Uppercase conditions applied
 ![password example with lowercase and uppercase conditions applied](https://github.com/joshmatsumoto/password-generator/blob/main/assets/images/ucaseandlcase.PNG?raw=true)
 
+For loop to create random values from adjustable array
+
+```
+{
+    for (i=0; i<=passLength; i++){
+    console.log (passLength)
+    character = finSet[Math.floor(Math.random() * finSet.length)]
+    pword += character
+  }
+  return pword
+}
+
+Determining Array based on boolean values
+
+{
+    if (ucaseCond){
+    finSet=[...finSet,...uCharSet]
+  }
+  if (lcaseCond){
+    finSet=[...finSet,...lCharSet]
+  }
+  if (specialCond){
+    finSet=[...finSet,...specSet]
+  }
+  if (numCondition){
+    finSet=[...finSet,...numSet]
+  }
+  console.log(finSet)
+}
+
+Alert Example
+{
+    passLength=prompt("How many characters will your password be?")
+    if (passLength>128){
+      alert("Password too long, please input an acceptable value")
+      return 
+}
 ## Credits
 
 McCoy Dickersen: Navigated with error where password was being stored into the log box
