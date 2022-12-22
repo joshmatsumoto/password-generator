@@ -23,14 +23,14 @@ In order to make use of the website, press the generate password button and foll
 ## Usage 
 
 Use this website to create your own password that will contain a random string of elements using the prompters to define what type of characters will appear in the password.
-[password length prompt](assets\images\passlength.png)
-[password is too short example](assets\images\passtooshort.png)
-[resulting alert](assets\images\passtooshortalert.png)
+![password length prompt](assets\images\passlength.png)
+![password is too short example](assets\images\passtooshort.png)
+![resulting alert](assets\images\passtooshortalert.png)
 
-[charachter set conditions](assets\images\ucasecond.png)(assets\images\lcasecond.png)(assets\images\numcond.png)(assets\images\speccond.png)
-[password example with all conditions applied](assets\images\allcond.png)
-[password example with only uppercase condition applied](assets\images\ucaseonly.png)
-[password example with lowercase and uppercase conditions applied](assets\images\ucaseandlcase.PNG)
+![charachter set conditions](assets\images\ucasecond.png)(assets\images\lcasecond.png)(assets\images\numcond.png)(assets\images\speccond.png)
+![password example with all conditions applied](assets\images\allcond.png)
+![password example with only uppercase condition applied](assets\images\ucaseonly.png)
+![password example with lowercase and uppercase conditions applied](assets\images\ucaseandlcase.PNG)
 
 ## Credits
 
