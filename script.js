@@ -6,14 +6,14 @@ var specSet= ["!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "_", "-", "+", "
 var uCharSet= ["A", "B", "C", "D", "E","F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]
 var finSet= []
 var passLength = 0
-var letter = ""
+var character = ""
 var pword = ""
 
 function generatePassword(){
   for (i=0; i<=passLength; i++){
     console.log (passLength)
-    letter = finSet[Math.floor(Math.random() * finSet.length)]
-    pword += letter
+    character = finSet[Math.floor(Math.random() * finSet.length)]
+    pword += character
   }
   return pword
 }
