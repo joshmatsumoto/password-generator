@@ -27,7 +27,7 @@ Use this website to create your own password that will contain a random string o
 ![password is too short example](\assets\images\passtooshort.png)
 ![resulting alert](\assets\images\passtooshortalert.png)
 
-![charachter set conditions](\assets\images\ucasecond.png)
+![charachter set conditions](https://github.com/joshmatsumoto/password-generator/blob/main/assets/images/allcond.png?raw=true)
 ![charachter set conditions](\assets\images\lcasecond.png)
 ![charachter set conditions](\assets\images\numcond.png)
 ![charachter set conditions](\assets\images\speccond.png)
